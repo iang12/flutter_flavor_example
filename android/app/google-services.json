@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "593978868801",
+    "project_id": "flavor-firebase-example",
+    "storage_bucket": "flavor-firebase-example.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593978868801:android:1f2609b6aecc8aeb4ef2c0",
+        "android_client_info": {
+          "package_name": "org.cajuinaapps.br"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593978868801-lb62fkbioqvrgqopb3654ttmc4qmhe4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-prKPynAN_pgowUyV9Cn8sJlCb8NKJ3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593978868801-lb62fkbioqvrgqopb3654ttmc4qmhe4e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "593978868801-qrqulv86sv5o4jbk7kl46m22459bnljg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ooba.cliente.appExampleFirebaseFlavor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

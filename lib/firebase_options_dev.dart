@@ -46,9 +46,31 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions();
+//adicione suas as credenciais aqui
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
+    measurementId: '',
+  );
 
-  static const FirebaseOptions android = FirebaseOptions();
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+  );
 
-  static const FirebaseOptions ios = FirebaseOptions();
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
+  );
 }
